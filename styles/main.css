@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:white;
+  font:12px Arial, sans-serif;
+  color:#111;
+  line-height:1.7em;
+}
+a{
+  color:#2a4;
+}
+
+
+.main_wrapper {
+    width:768px;
+    float:left;
+    margin-left:50%;
+    position:relative;
+    left:-310px;
+    padding:25px 0;
+}
+.main_table{
+    width:100%;
+}
+.main_table .left{
+    width:5%;
+    font-size:4em;
+    color:black;
+}
+.main_table .center{
+    width:73%;
+}
+.main_table .right{
+    width:20%;
+}
+tr.bordered .center, tr.bordered .right{
+    border-top:1px solid #ccc;
+}
+
+
+.main_wrapper h1 { width:100%; float:left; font-size:2.5em; margin-bottom:1em; }
+.main_wrapper h2 { width:100%; float:left; font-size:1.5em; margin-bottom:1em; }
+.main_wrapper h3 { width:100%; float:left; font-size:1.2em; margin-bottom:0.4em; }
+
+.main_table .right .image{ width:100%; float:left; }
+.main_table .center p { margin-bottom:1.5em; }
+.main_table .center .dl { width:49%; float:left; }
+.main_table .center .dr { width:49%; float:right; }
+.main_table td { padding:20px 10px 0 0; vertical-align:top; }
+
+
+
+
+.main_table .tr1 h2{
+    color:#666;
+    font-weight:normal;
+}
+.main_table .tr1 h3{
+    font-weight:normal;
+}
+.main_table .tr1 .stop_notes{
+    width:100%;
+    float:left;
+    margin-bottom:3em;
+    background:center center no-repeat url('../images/stop.png');
+    padding:1em;
+}
+.main_table .tr1 .stop_notes li{
+    margin:1em;
+}
+.main_table .tr1 .warning {
+    width:100%;
+    float:left;
+    background-color:black;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding-top:2em;
+    margin-bottom:2.5em;
+}
+.main_table .tr1 .warning .text{
+    width:50%;
+    float:right;
+    color:white;
+    font-style:italic;
+    font-size:1.2em;
+    text-align:right;
+}
+.main_table .tr1 .warning .image{
+    width:40%;
+    float:right;
+    text-align:center;
+}
+
+
+.main_table .tr2 span.s1 {
+    color:blueviolet; }
+.main_table .tr2 span.s2 {
+    color:gray; }
+.main_table .tr2 span.s3 {
+    color:#db0; }
+.main_table .tr2 span.s4 {
+    color:#04c; }
+.main_table .tr2 span.s5 {
+    color:red; }
+.main_table .tr2 span.s6 {
+    color:aqua; }
+.main_table .tr2 span.s7 {
+    color:#0c4; }
+
+
+
+
+
+.main_table .tr5 .center .image{
+    width:37%;
+    float:left;
+    text-align:left;
+}
